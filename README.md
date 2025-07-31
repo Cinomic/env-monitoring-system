@@ -20,14 +20,6 @@ This project is a compact, Wi-Fi-enabled environmental monitoring system develop
 Sensors → ESP32-S3 Feather → WiFi → ThingSpeak Dashboard
 ```
 
-## 📸 Photos
-| Final Product | Inside View |
-|---------------|-------------|
-| ![Final Box](images/final_product.jpg) | ![Inside](images/inside_enclosure.jpg) |
-
-## 📈 System Flowchart
-![Flowchart](images/flowchart.png)
-
 ## 📅 Development Timeline
 - **Week 1:** Planning and AHT20 Integration
 - **Week 2:** Light Sensor Integration + Enclosure Prototyping
@@ -41,9 +33,7 @@ Sensors → ESP32-S3 Feather → WiFi → ThingSpeak Dashboard
 ```
 src/                # Main Python code
 images/             # Product and diagram images
-enclosure_design/   # Notes and sketches for enclosure
-calibration/        # Calibration graphs and data
-docs/               # Final report and documentation
+schematic/          # Schematic design of the system
 ```
 
 ## 📜 License
