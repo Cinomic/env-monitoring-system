@@ -1,1 +1,11 @@
-
+| Component                    | Description                                    | Interface/Type     |
+| ---------------------------- | ---------------------------------------------- | ------------------ |
+| **ESP32-S3 Feather**         | Main microcontroller with built-in WiFi        | Microcontroller    |
+| **AHT20 Sensor**             | Temperature and humidity sensor                | I²C                |
+| **BMP388 Sensor**            | Atmospheric pressure sensor (replaced BME688)  | I²C                |
+| **Photoresistor (LDR)**      | Measures ambient light via voltage             | Analog input (ADC) |
+| **NeoPixel 8-LED Stick**     | RGB LEDs for status indication                 | Digital (1 wire)   |
+| **Resistor** (for LDR)       | Voltage divider with photoresistor             | Analog signal bias |
+| **USB Cable / Battery Pack** | Powers the system                              | Power supply       |
+| **Jumper wires / QT Cables** | For I²C connections and sensor linking         | Wiring             |
+| **3D-Printed Enclosure**     | Custom case with cutouts for sensors and power | Mechanical Housing |
